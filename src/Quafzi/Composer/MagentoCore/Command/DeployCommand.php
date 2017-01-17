@@ -15,7 +15,7 @@ use Composer\Downloader\VcsDownloader;
  * @author Tiago Ribeiro <tiago.ribeiro@seegno.com>
  * @author Rui Marinho <rui.marinho@seegno.com>
  */
-class DeployCommand extends \Composer\Command\Command
+class DeployCommand extends \Composer\Command\ExecCommand
 {
     protected function configure()
     {
